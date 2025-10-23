@@ -1,0 +1,13 @@
+name: Shivam Patil
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greeting
+        run: echo "Hellow By Me"
